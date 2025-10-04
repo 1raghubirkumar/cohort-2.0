@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{ 
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323131;
+    gap: 20px;
+    color: white;
+}
+#main{
+    height: 630px;
+    width: 100%;
+    background-image: url(images/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#iphone{
+    padding-top: 50px;
+    padding-bottom: 10PX;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    color: white;
+    
+}
+#iphone h1{
+    /* margin-bottom: 10px; */
+    font-size: 50px;
+    
+}
+#iphone h4{
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+ button{
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0077ED;
+    color: rgb(28, 26, 39);
+    cursor: pointer;
+    padding: 10px 20px;
+
+}
+
+
+#air{
+    width: 100%;
+    height: 630px;
+    margin-top: 20px;
+    background-image: url(images/hero_iphone_air__0gxyavihpiqu_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#air{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    color: white;
+}
+#air p{
+    
+    color: rgb(13, 13, 13);
+    font-size: 30px;
+    font-weight: 10px;
+    text-align: center;
+   
+}
+.p{
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+#air h1{
+    
+    padding-top: 40px;
+    color: rgb(13, 13, 13);
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+#i17{
+    margin: 20px;
+    width: 100%;
+    
+    height: 630px   ;
+    background-image: url(images/hero_iphone_17__c5vvimu9a20y_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    display: flex   ;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    
+}
+
+#i17 h1{
+    padding-top: 40px;
+    color: rgb(13, 13, 13);
+    font-size: 60px;
+    text-align: center;
+    
+}
+#i17 p{
+    margin-top: 2px;
+    margin-bottom: 20px;
+    color: rgb(13, 13, 13);
+    font-size: 30px;
+    font-weight: 10px;
+    text-align: center;
+   
+}
+.we{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#watch{
+    margin: 10px;
+    width: 50%;
+    height: 100%;
+    background-image: url(images/promo_apple_watch_series_11__b63hxviqvonm_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.des{
+    display: flex;
+}
+#watch h1{
+    padding-top: 40px;
+    color: rgb(13, 13, 13);
+    font-size: 40px;
+    text-align: center;
+    
+}
+#watch p{
+    margin-top: 2px;
+    margin-bottom: 20px;
+    color: rgb(13, 13, 13);
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+   
+}
+
+#ear{
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+    background-image: url(images/promo_airpodspro_3__f6xmza7bglei_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    
+}
+#ear h1{
+    padding-top: 40px;
+    color: rgb(13, 13, 13);
+    font-size: 40px;
+    text-align: center;
+    
+    
+}
+#ear p{
+    margin-top: 2px;
+    
+    color: rgb(13, 13, 13);
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+   
+}
+.e{
+    margin-bottom: 20px;
+}
+
+.nx{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#trade{
+    
+    width: 50%;
+    height: 100%;
+    background-image: url(images/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t{
+    margin-bottom: 20px;
+    
+}
+
+
+#trade h1{
+    padding-top: 40px;
+    color: rgb(13, 13, 13);
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+#trade p{
+    
+    color: rgb(13, 13, 13);
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+   
+}
+#card{
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+    background-image: url(images/promo_apple_card__5cm7draujpey_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card h1{
+    padding-top: 40px;
+    color: rgb(13, 13, 13);
+    font-size: 40px;
+    text-align: center;
+    
+}
+#card p{
+    
+    color: rgb(13, 13, 13);
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+   
+}
+.p{
+    margin-bottom: 20px;
+}
